@@ -1,0 +1,42 @@
+# Duże pliki przekraczające limit GitHub (100 MB)
+assetofolder/dwrite.dll
+
+# Pliki modeli 3D (.kn5) - często bardzo duże
+*.kn5
+assetofolder/**/*.kn5
+
+# Pliki audio bank (.bank) - duże pliki dźwiękowe
+*.bank
+assetofolder/**/*.bank
+
+# Cały folder content (samochody, tory) - zawiera bardzo duże pliki
+assetofolder/content/
+
+# Alternatywnie, jeśli chcesz ignorować tylko największe pliki, możesz użyć:
+# assetofolder/content/cars/cky_porsche992_gt3rs_2023/cky_porsche992_gt3rs_2023.kn5
+# assetofolder/content/tracks/ks_nordschleife/18.kn5
+# assetofolder/content/tracks/ks_nordschleife/ks_nordschleife.kn5
+# assetofolder/content/tracks/ks_nurburgring/ks_nurburgring.kn5
+# assetofolder/content/cars/cky_porsche992_gt3rs_2023/sfx/cky_porsche992_gt3rs_2023.bank
+
+# Build outputs
+bin/
+obj/
+out/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# Rider
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
