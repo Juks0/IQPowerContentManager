@@ -1,0 +1,12 @@
+zrob mi api, gdzie bede mogl wszystko obsluzyc z frontendu ktory napisze sam.
+Co ma umożliwiać api: 
+1. wpisać nick
+2. wybrac samochod z listy
+3. wybrac tor z listy
+4. wybrac rodzaj skrzyni biegów (manualna / sekwencyjna, H-pattern)
+5. zbindować przyciski (Hanbrake, kierownica - Zmiana widoku oraz jej ruch, skrzynie biegów
+    ( 3 możliwosci które można zbidnowac wszystkie na raz: "Skrzynia H - przyciski od 1 do 7 i wsteczny,
+    oraz biegi góra dół do 2 bindów na góre i dół), pedały gaz, hamulec, sprzęgło
+6. wgrac wszystkie pliki do folderu assetocorsa
+7. Ustawić tryb wyświetlania (Single Screen, Tripple Screen, OpenVR) 
+8. ustawić rozdzielczość ekranu

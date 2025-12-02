@@ -1,0 +1,1919 @@
+Hello there! This is Custom Shaders Patch, v0.2.11. All hooks are set and ready to work.
+Installing CrashGuard Fault Handler
+Steam Name:Juqzz
+Steam Community ID: 76561198285046085
+LOADING AC VERSION : 1.16.4 -----------PRINTING VIDEO INI-----------
+CURRENT LOCALE en
+TagDocumentReader:: couldn't load system/locales/tutorial/en.tag
+WM_SIZE 1920 1080
+QueryPerformanceFrequency: 10000.000000
+[DX11] MAXIMUM_FRAME_LATENCY: 0
+Display mode 0: 640x480 @ 60.00 [6000/100] 28
+Display mode 133: 1280x800 @ 60.00 [6000/100] 28
+Display mode 158: 1280x1024 @ 60.00 [6000/100] 28
+Display mode 173: 1360x768 @ 100.00 [10000/100] 28
+Display mode 188: 1366x768 @ 119.98 [119982/1000] 28
+Display mode 204: 1440x900 @ 239.76 [239757/1000] 28
+
+***** GOING FULLSCREEN ***
+
+SWAP CHAIN DESC
+KGL CREATE FONT Segoe UI with locale 
+KGL CREATE FONT Consolas with locale 
+[SETTINGS] LIVE_UPDATE: 0
+FMOD running @48000 speaker mode:0 speakers: 0
+----- Listing FMOD audio drivers -----
+Id: 0
+Id: 1
+Id: 2
+Id: 3
+Id: 4
+Id: 5
+Audio log (AudioEngine.cpp:1198): Loading bank content/sfx/common.bank
+Audio log (AudioEngine.cpp:1198): Loading bank extension/sfx/csp_base.bank
+Audio log (AudioEngine.cpp:1198): Loading bank extension/sfx/csp_extras.bank
+[ASSETTO_CORSA] SLEEP_TIME: -1
+KGL CREATE FONT Segoe UI with locale 
+[OPTIONS] AUTOFLIP_RECOVERY: 1.000000
+CREATING YEBIS CAMERA
+Creating render target 1920 1080
+LOADING PP SET:ExilitayRealism 1.07
+Loading PP set from: system/cfg/ppfilters/ExilitayRealism 1.07.ini
+Default PP filter:ExilitayRealism 1.07
+Loading PP set from: system/cfg/ppfilters/ExilitayRealism 1.07.ini
+Creating render target 1920 1080
+Creating render target 1920 1080
+Creating render target 1920 1080
+RE-INSTANTIATE g_pPfxContext 0x0000000000000000
+Numbersofparticles: 0
+******** Kunos Simulazioni Physics Engine ********
+USING FF LOW SPEED VALUES: 3.000000 kmh MIN_VALUE:0.010000
+LOGICAL CPU DETECTED: 0
+Update Clouds Generation to sol_41_light_thunderstorm 
+Creating render target 1024 256
+Creating render target 1024 256
+[MIRRORS] FOV: 10.000000
+KGL CREATE FONT Segoe UI with locale 
+KGL CREATE FONT Segoe UI with locale 
+KGL CREATE FONT Orbitron with locale 
+[BENCHMARK] ACTIVE: 0
+[LIGHTING] TIME_MULT: 0.000000
+[RACE] AI_LEVEL: 100.000000
+[HEADER] VERSION: 2
+[AUTOSPAWN]
+ACTIVE=0
+[CAR_0]
+BALLAST=0
+MODEL=-
+NATIONALITY=Planet Earth
+RESTRICTOR=0
+SKIN=01_white'n'black
+AI_AGGRESSION=35.7
+DRIVER_NAME=Volodymyr Gorban
+NATIONALITY=Ukraine
+SETUP=
+AI_AGGRESSION=31.7
+DRIVER_NAME=Ilka Ettel
+NATIONALITY=Japan
+SKIN=soul_red_metallic
+AI_AGGRESSION=28.7
+DRIVER_NAME=Jérôme Courtois
+NATIONALITY=France
+SKIN=blue
+AI_AGGRESSION=24.7
+MODEL=traffic_toyota_camry
+NATION_CODE=FRA
+
+AI_AGGRESSION=21.7
+MODEL=traffic_toyota_rav4
+NATION_CODE=FRA
+SKIN=02_misano_red_pearl_br
+AI_AGGRESSION=17.7
+MODEL=traffic_aegis_daihatsu_copen
+RESTRICTOR=0
+[DYNAMIC_TRACK]
+LAP_GAIN=132
+SESSION_TRANSFER=200
+ENABLED=0
+RECORDING=0
+MAX_LAPS=30
+[HEADER]
+[LAP_INVALIDATOR]
+ALLOWED_TYRES_OUT=-1
+CLOUD_SPEED=0.200
+__CM_WEATHER_CONTROLLER=base
+__TRACK_GEOTAG_LONG=6.9475
+__TRACK_TIMEZONE_DTS=0
+[OPTIONS]
+AI_LEVEL=100
+DRIFT_MODE=0
+MODEL=cky_porsche992_gt3rs_2023
+RACE_LAPS=2
+
+ACTIVE=0
+REQUESTED_CAR=
+[REPLAY]
+FILENAME=
+DURATION_MINUTES=0
+SPAWN_SET=START
+[TEMPERATURE]
+ROAD=15
+NAME=sol_41_light_thunderstorm
+DIRECTION_DEG=0
+[__PREVIEW_GENERATION]
+-----------END RACE INI-----------
+[SESSION_0] TYPE: 3
+[SESSION_0] STARTING_POSITION: 7
+Creating physics track: ks_nordschleife [nordschleife]
+ADDED TRACK SKIN OVERRIDE: default
+DEBUG TIMER: TrackAvatar::init3D():754.786500
+LOOKING FOR: content/tracks/ks_nordschleife/nordschleife/ai/fast_lane.ai
+LOADING SPLINE: content/tracks/ks_nordschleife/nordschleife/ai/fast_lane.ai
+Loading AI Spline: content/tracks/ks_nordschleife/nordschleife/ai/fast_lane.ai
+Straight 0, start: 0.851439, length: 2630.788574
+Straight 19, start: 0.344205, length: 185.300720
+Straight 27, start: 0.635787, length: 126.569160
+Straight 34, start: 0.606899, length: 89.890305
+Straight 40, start: 0.766393, length: 65.130844
+Straight 47, start: 0.023888, length: 48.007633
+Straight 53, start: 0.317716, length: 42.017117
+Straight 59, start: 0.054488, length: 25.878826
+DEBUG TIMER: AISpline::calculateNormals:68.145900
+LOOKING FOR: content/tracks/ks_nordschleife/nordschleife/ai/pit_lane.ai
+LOADING SPLINE: content/tracks/ks_nordschleife/nordschleife/ai/pit_lane.ai
+Loading AI Spline: content/tracks/ks_nordschleife/nordschleife/ai/pit_lane.ai
+Straight 0, start: 0.561923, length: 139.153244
+Straight 24, start: 0.326493, length: 1.501475
+Scanning 681 points
+SPLINE POINTS COUNT : 13323  | PAYLOADS COUNT : 13323
+Loading AI Hints from: content/tracks/ks_nordschleife/nordschleife/data/ai_hints.ini
+HINT_0 START:0.578000 END:0.586000 VALUE:0.800000
+HINT_1 START:0.353000 END:0.361000 VALUE:0.800000
+HINT_2 START:0.745000 END:0.753000 VALUE:0.900000
+MAXSPEED_0 START:0.104000 END:0.107000 VALUE:250.000000
+DEBUG TIMER: INIT TRACK SPLINES:210.013700
+IDEAL LINE FROM FILE: content/tracks/ks_nordschleife/nordschleife/data/ideal_line.ai
+Loading AI Spline: content/tracks/ks_nordschleife/nordschleife/data/ideal_line.ai
+DEBUG TIMER: IDEALLINE:122.956300
+WARNING: TRACK :: NO POSITION DATA FOUND
+TRACK LENGTH: 20801.365234
+DEBUG TIMER: TrackAvatar::TrackAvatar:1880.091700
+[RACE] FIXED_SETUP: 0
+[WIND] SPEED_KMH_MAX: 10.000000
+[RACE] CARS: 7
+USING DEFAULT DRIVER SYSTEM
+ERROR: Variable type cannot be found
+ERROR: Variable type cannot be found
+LOADING ANIMATION: content/cars/cky_porsche992_gt3rs_2023/animations/steer.ksanim
+VERSION: 2
+LOADING ANIMATION: content/cars/cky_porsche992_gt3rs_2023/animations/shift_dw.ksanim
+VERSION: 2
+LOADING ANIMATION: content/cars/cky_porsche992_gt3rs_2023/animations/shift_up.ksanim
+VERSION: 2
+USING DEFAULT DRIVER SYSTEM
+LOADING ANIMATION: content/cars/cky_porsche992_gt3rs_2023/animations/steer.ksanim
+VERSION: 2
+LOADING ANIMATION: content/cars/cky_porsche992_gt3rs_2023/animations/shift_dw.ksanim
+VERSION: 2
+LOADING ANIMATION: content/cars/cky_porsche992_gt3rs_2023/animations/shift_up.ksanim
+VERSION: 2
+USING PHYSICS DRIVEN SUSPENSIONS
+INIT LOD:0
+|0.010000 -0.000000 -0.000000 0.339636|
+CAR LOADED IN 1130
+ERROR: INIReader: content/cars/cky_porsche992_gt3rs_2023/data/sounds.ini > KEY_NOT_FOUND: [BACKFIRE] TRIGGERGAS
+LOADING TYRE COMPOUND Pilot Sport Cup 2 R (Cup 2R)
+TEST MAX, LOAD:1737.0 1.00 @ 6.96 D:1.83
+TEST MAX, LOAD:3474.0 1.00 @ 7.01 D:1.54
+TEST MAX, LOAD:6948.0 1.00 @ 7.13 D:1.30
+Loading lut content/cars/cky_porsche992_gt3rs_2023/data/__cm_tyre_wearcurve_front_1.lut
+Loading lut content/cars/cky_porsche992_gt3rs_2023/data/wing_body_AOA_CD.lut
+Loading lut content/cars/cky_porsche992_gt3rs_2023/data/wing_front_AOA_CL.lut
+Loading lut content/cars/cky_porsche992_gt3rs_2023/data/wing_front_AOA_CD.lut
+Loading lut content/cars/cky_porsche992_gt3rs_2023/data/height_front_CL.lut
+Loading lut content/cars/cky_porsche992_gt3rs_2023/data/height_front_CD.lut
+Loading lut content/cars/cky_porsche992_gt3rs_2023/data/wing_rear_AOA_CL.lut
+Loading lut content/cars/cky_porsche992_gt3rs_2023/data/wing_diffuser_AOA_CL.lut
+Loading lut content/cars/cky_porsche992_gt3rs_2023/data/wing_diffuser_AOA_CD.lut
+Loading lut content/cars/cky_porsche992_gt3rs_2023/data/height_diffuser_CL.lut
+Loading lut content/cars/cky_porsche992_gt3rs_2023/data/height_diffuser_CD.lut
+Loading lut content/cars/cky_porsche992_gt3rs_2023/data/wing_front_AOA_CL.lut
+Loading lut content/cars/cky_porsche992_gt3rs_2023/data/height_front_CL.lut
+Loading lut content/cars/cky_porsche992_gt3rs_2023/data/height_front_CD.lut
+Loading lut content/cars/cky_porsche992_gt3rs_2023/data/wing_rear_AOA_CL.lut
+Loading lut content/cars/cky_porsche992_gt3rs_2023/data/wing_rear_AOA_CD.lut
+Loading lut content/cars/cky_porsche992_gt3rs_2023/data/wing_controller_speed.lut
+LOADING DRS
+Initializing 4ws
+Loading engine file content/cars/cky_porsche992_gt3rs_2023/data/engine.ini
+VERSION=1
+GENERATING COAST CURVE PARAMETERS for section COAST_REF
+LOADING THROTTLE LUT
+ADDING GEAR:R
+ADDING GEAR:4
+ADDING GEAR:6
+INITIALIZING SINGLE LOCK CONTROLLER FROM: content/cars/cky_porsche992_gt3rs_2023/data/ctrl_single_lock.ini
+Loading lut content/cars/cky_porsche992_gt3rs_2023/data/traction_control.lut
+RaceEngineer :: LOADING IDEAL LINE
+Loading AI Spline: content/tracks/ks_nordschleife/nordschleife/data/ideal_line.ai
+MAX NUMBER OF GEARS 9
+MAX SPEED 77.979424 TURBOS 0
+FINAL FUEL : 12.052613
+POWER CLASS INDEX: 258.660431 (cky_porsche992_gt3rs_2023) PW:376920.000000 (505.457245 HP) W:1457.199951
+[KEYBOARD] GAS: 38
+LOADING COLLIDER MESH FILE: content/cars/cky_porsche992_gt3rs_2023/collider.kn5
+Car bounds L: 4.566512 W:2.006188 , front: 2.520852 rear: 2.045659
+DEBUG TIMER: Car::initColliderMesh:0.094800
+RADIUS FRONT, P:0.347000 , G:0.000000 , diff:0.347000
+SMOKE LEVEL AT 0:SMOKE LEVEL AT 0:SMOKE LEVEL AT 0:SMOKE LEVEL AT 0:ENGINE SMOKE LEVEL SELECTED : eSmokeOff
+Audio log (AudioEngine.cpp:1198): Loading bank content/cars/cky_porsche992_gt3rs_2023/sfx/cky_porsche992_gt3rs_2023.bank
+LOADING ANIMATION: content/cars/cky_porsche992_gt3rs_2023/animations/car_shift_dw.ksanim
+VERSION: 2
+599_big MONOSPACE SIZE:0.017334 (min -0.941895)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+mp4_big MONOSPACE SIZE:0.016602 (min -0.851807)
+mp4_big MONOSPACE SIZE:0.016602 (min -0.851807)
+digital_mid MONOSPACE SIZE:0.008789 (min -0.694336)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+mp4_big MONOSPACE SIZE:0.016602 (min -0.851807)
+mp4_big MONOSPACE SIZE:0.016602 (min -0.851807)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+mg MONOSPACE SIZE:0.019043 (min -0.977539)
+DigitalPanels::initPanel()
+BRAKE DISC: A_DISC_LF FOUND FOR: DISC_LF
+FOUND 1 BRAKE DISCS MESHES FOR TYRE:0
+BRAKE DISC: A_DISC_LF001 FOUND FOR: DISC_RF
+FOUND 1 BRAKE DISCS MESHES FOR TYRE:1
+BRAKE DISC: A_DISC_LR FOUND FOR: DISC_LR
+FOUND 1 BRAKE DISCS MESHES FOR TYRE:2
+BRAKE DISC: A_DISC_LR001 FOUND FOR: DISC_RR
+FOUND 1 BRAKE DISCS MESHES FOR TYRE:3
+User FF gain loaded and set to 1.000000
+DEBUG TIMER: AUDIO LOAD:165.691900
+DEBUG TIMER: PHYSICS LOAD:295.684200
+goToSpawnPosition PIT
+[CAR_0] BALLAST: 0.000000
+[CAR_1] AI_LEVEL: 95.000000
+[CAR_1] AI_AGGRESSION: 35.700001
+ERROR: INIReader: content/cars/rize_traffic_mazda_rx8_se3p/data/driver3d.ini > KEY_NOT_FOUND: [SHIFT_ANIMATION] INVERT_SHIFTING_HANDS
+LOADING ANIMATION: content/cars/rize_traffic_mazda_rx8_se3p/animations/shift_dw.ksanim
+VERSION: 1
+ERROR: INIReader: content/cars/rize_traffic_mazda_rx8_se3p/data/driver3d.ini > KEY_NOT_FOUND: [SHIFT_ANIMATION] INVERT_SHIFTING_HANDS
+LOADING ANIMATION: content/cars/rize_traffic_mazda_rx8_se3p/animations/shift_dw.ksanim
+VERSION: 1
+USING PHYSICS DRIVEN SUSPENSIONS
+ERROR: INIReader: content/cars/rize_traffic_mazda_rx8_se3p/data/lods.ini > KEY_NOT_FOUND: [COCKPIT_HR] DISTANCE_SWITCH
+INIT LOD:0
+CAR LOADED IN 97
+Creating car: rize_traffic_mazda_rx8_se3p []
+LOADING TYRE COMPOUND Street90S (SV)
+TEST MAX, LOAD:1320.0 1.00 @ 8.25 D:1.44
+TEST MAX, LOAD:2640.0 1.00 @ 8.42 D:1.21
+TEST MAX, LOAD:5280.0 1.00 @ 8.64 D:1.01
+TEST MAX, LOAD:10560.0 1.00 @ 9.15 D:0.85
+COOL FACTOR FINAL:0.000227
+Loading lut content/cars/rize_traffic_mazda_rx8_se3p/data/tcurve_street90.lut
+Loading lut content/cars/rize_traffic_mazda_rx8_se3p/data/street90_front.lut
+MAX WEAR AT: 20.000000 vKM , mult 0.880000
+SOFTNESS INDEX: 0.171073
+cback: 0
+LOADING TYRE COMPOUND Street90S (SV)
+TEST MAX, LOAD:1320.0 1.00 @ 8.25 D:1.44
+TEST MAX, LOAD:2640.0 1.00 @ 8.42 D:1.21
+TEST MAX, LOAD:5280.0 1.00 @ 8.64 D:1.01
+TEST MAX, LOAD:10560.0 1.00 @ 9.15 D:0.85
+COOL FACTOR FINAL:0.000227
+Loading lut content/cars/rize_traffic_mazda_rx8_se3p/data/street90_front.lut
+MAX WEAR AT: 20.000000 vKM , mult 0.880000
+SOFTNESS INDEX: 0.171073
+LOADING TYRE COMPOUND Street90S (SV)
+TEST MAX, LOAD:1568.0 1.00 @ 8.03 D:1.43
+TEST MAX, LOAD:3136.0 1.00 @ 8.14 D:1.21
+TEST MAX, LOAD:6272.0 1.00 @ 8.36 D:1.02
+TEST MAX, LOAD:12544.0 1.00 @ 8.87 D:0.86
+COOL FACTOR FINAL:0.000269
+Loading lut content/cars/rize_traffic_mazda_rx8_se3p/data/street_rear.lut
+MAX WEAR AT: 50.000000 vKM , mult 0.800000
+SOFTNESS INDEX: 0.223204
+LOADING TYRE COMPOUND Street90S (SV)
+TEST MAX, LOAD:1568.0 1.00 @ 8.03 D:1.43
+TEST MAX, LOAD:3136.0 1.00 @ 8.14 D:1.21
+TEST MAX, LOAD:6272.0 1.00 @ 8.36 D:1.02
+TEST MAX, LOAD:12544.0 1.00 @ 8.87 D:0.86
+COOL FACTOR FINAL:0.000269
+Loading lut content/cars/rize_traffic_mazda_rx8_se3p/data/street_rear.lut
+MAX WEAR AT: 50.000000 vKM , mult 0.800000
+SOFTNESS INDEX: 0.223204
+TYRE COMPOUND: Street90S (SV)
+IGNORING HEAVE SPRING BECAUSE SUSPENSION 0  IS NOT DOUBLE WISHBONE
+Loading lut content/cars/rize_traffic_mazda_rx8_se3p/data/wing_body_AOA_CL.lut
+Loading lut content/cars/rize_traffic_mazda_rx8_se3p/data/wing_body_AOA_CD.lut
+Loading lut content/cars/rize_traffic_mazda_rx8_se3p/data/wing_front_AOA_CL.lut
+Loading lut content/cars/rize_traffic_mazda_rx8_se3p/data/wing_front_AOA_CD.lut
+Loading lut content/cars/rize_traffic_mazda_rx8_se3p/data/wing_rear_AOA_CL.lut
+Loading lut content/cars/rize_traffic_mazda_rx8_se3p/data/wing_rear_AOA_CD.lut
+Loading engine file content/cars/rize_traffic_mazda_rx8_se3p/data/engine.ini
+VERSION=1
+GENERATING COAST CURVE PARAMETERS for section COAST_REF
+0: 3.333333
+4500: -13.333333
+LOADING THROTTLE LUT
+ADDING GEAR:R
+ADDING GEAR:1
+ADDING GEAR:3
+MAX NUMBER OF GEARS 7
+MAX SPEED 77.979424 TURBOS 2
+FINAL FUEL : 7.501085
+LOADING COLLIDER MESH FILE: content/cars/rize_traffic_mazda_rx8_se3p/collider.kn5
+Car bounds L: 4.425000 W:1.770000 , front: 2.152217 rear: 2.272783
+DEBUG TIMER: Car::initColliderMesh:0.195200
+RADIUS FRONT, P:0.332000 , G:0.000000 , diff:0.332000
+SMOKE LEVEL AT 0:SMOKE LEVEL AT 0:SMOKE LEVEL AT 0:SMOKE LEVEL AT 0:ENGINE SMOKE LEVEL SELECTED : eSmokeOff
+Audio log (AudioEngine.cpp:1198): Loading bank content/cars/rize_traffic_mazda_rx8_se3p/sfx/rize_traffic_mazda_rx8_se3p.bank
+Loading lut content/cars/rize_traffic_mazda_rx8_se3p/data/analog_speed_curve.lut
+ADDING BRAKE LIGHT: BRAKE_THIRD_EMISSIVE
+ERROR: INIReader: content/cars/rize_traffic_mazda_rx8_se3p/data/lights.ini > KEY_NOT_FOUND: [BRAKE_0] OFF_COLOR
+ADDING BRAKE LIGHT: tl_ef
+ADDING LIGHT OBJECT HEADLIGHTS_EMISSIVE
+ADDING LIGHT OBJECT FOGLIGHTS_EMISSIVE
+ADDING LIGHT OBJECT DASH_EMISSIVE
+DigitalInstruments::initInstruments()
+DigitalPanels::initPanel()
+WARNING: flames.ini not found
+DEBUG TIMER: AUDIO LOAD:77.313200
+goToSpawnPosition PIT
+[CAR_1] BALLAST: 0.000000
+[CAR_2] AI_LEVEL: 93.000000
+[CAR_2] AI_AGGRESSION: 31.700001
+ERROR: INIReader: content/cars/traffic_aegis_mazda_cx3/data/driver3d.ini > KEY_NOT_FOUND: [SHIFT_ANIMATION] INVERT_SHIFTING_HANDS
+LOADING ANIMATION: content/cars/traffic_aegis_mazda_cx3/animations/shift_dw.ksanim
+VERSION: 1
+ERROR: INIReader: content/cars/traffic_aegis_mazda_cx3/data/driver3d.ini > KEY_NOT_FOUND: [SHIFT_ANIMATION] INVERT_SHIFTING_HANDS
+LOADING ANIMATION: content/cars/traffic_aegis_mazda_cx3/animations/shift_dw.ksanim
+VERSION: 1
+USING PHYSICS DRIVEN SUSPENSIONS
+ERROR: INIReader: content/cars/traffic_aegis_mazda_cx3/data/lods.ini > KEY_NOT_FOUND: [COCKPIT_HR] DISTANCE_SWITCH
+INIT LOD:0
+CREATING proview_nodes.ini
+INIT LOD:1
+INIT LOD:2
+CAR LOADED IN 88
+Creating car: traffic_aegis_mazda_cx3 []
+LOCAL INERTIA: 2063.185059 2139.084961 547.144958
+LOADING TYRE COMPOUND Street90S (SV)
+TEST MAX, LOAD:1320.0 1.00 @ 8.25 D:1.44
+TEST MAX, LOAD:2640.0 1.00 @ 8.42 D:1.21
+TEST MAX, LOAD:5280.0 1.00 @ 8.64 D:1.01
+TEST MAX, LOAD:10560.0 1.00 @ 9.15 D:0.85
+COOL FACTOR FINAL:0.000227
+Loading lut content/cars/traffic_aegis_mazda_cx3/data/tcurve_street90.lut
+LOADING TYRE COMPOUND Street90S (SV)
+TEST MAX, LOAD:1320.0 1.00 @ 8.25 D:1.44
+TEST MAX, LOAD:2640.0 1.00 @ 8.42 D:1.21
+TEST MAX, LOAD:5280.0 1.00 @ 8.64 D:1.01
+TEST MAX, LOAD:10560.0 1.00 @ 9.15 D:0.85
+COOL FACTOR FINAL:0.000227
+Loading lut content/cars/traffic_aegis_mazda_cx3/data/street90_front.lut
+MAX WEAR AT: 20.000000 vKM , mult 0.880000
+SOFTNESS INDEX: 0.171073
+LOADING TYRE COMPOUND Street90S (SV)
+TEST MAX, LOAD:1568.0 1.00 @ 8.03 D:1.43
+TEST MAX, LOAD:3136.0 1.00 @ 8.14 D:1.21
+TEST MAX, LOAD:6272.0 1.00 @ 8.36 D:1.02
+TEST MAX, LOAD:12544.0 1.00 @ 8.87 D:0.86
+COOL FACTOR FINAL:0.000269
+Loading lut content/cars/traffic_aegis_mazda_cx3/data/street_rear.lut
+MAX WEAR AT: 50.000000 vKM , mult 0.800000
+SOFTNESS INDEX: 0.223204
+LOADING TYRE COMPOUND Street90S (SV)
+TEST MAX, LOAD:1568.0 1.00 @ 8.03 D:1.43
+TEST MAX, LOAD:3136.0 1.00 @ 8.14 D:1.21
+TEST MAX, LOAD:6272.0 1.00 @ 8.36 D:1.02
+TEST MAX, LOAD:12544.0 1.00 @ 8.87 D:0.86
+COOL FACTOR FINAL:0.000269
+Loading lut content/cars/traffic_aegis_mazda_cx3/data/street_rear.lut
+MAX WEAR AT: 50.000000 vKM , mult 0.800000
+SOFTNESS INDEX: 0.223204
+TYRE COMPOUND: Street90S (SV)
+Loading lut content/cars/traffic_aegis_mazda_cx3/data/wing_body_AOA_CL.lut
+Loading lut content/cars/traffic_aegis_mazda_cx3/data/wing_body_AOA_CD.lut
+Loading lut content/cars/traffic_aegis_mazda_cx3/data/wing_front_AOA_CL.lut
+Loading lut content/cars/traffic_aegis_mazda_cx3/data/wing_front_AOA_CD.lut
+Loading lut content/cars/traffic_aegis_mazda_cx3/data/wing_rear_AOA_CL.lut
+Loading lut content/cars/traffic_aegis_mazda_cx3/data/wing_rear_AOA_CD.lut
+Loading engine file content/cars/traffic_aegis_mazda_cx3/data/engine.ini
+VERSION=1
+GENERATING COAST CURVE PARAMETERS for section COAST_REF
+0: 3.333333
+4500: -13.333333
+LOADING THROTTLE LUT
+ADDING GEAR:R
+ADDING GEAR:1
+ADDING GEAR:4
+MAX NUMBER OF GEARS 7
+MAX SPEED 77.979424 TURBOS 2
+FINAL FUEL : 7.501085
+LOADING COLLIDER MESH FILE: content/cars/traffic_aegis_mazda_cx3/collider.kn5
+Car bounds L: 4.251807 W:1.765000 , front: 2.175268 rear: 2.076539
+DEBUG TIMER: Car::initColliderMesh:0.193900
+RADIUS FRONT, P:0.335000 , G:0.000000 , diff:0.335000
+SMOKE LEVEL AT 0:SMOKE LEVEL AT 0:SMOKE LEVEL AT 0:SMOKE LEVEL AT 0:ENGINE SMOKE LEVEL SELECTED : eSmokeOff
+Audio log (AudioEngine.cpp:1198): Loading bank content/cars/traffic_aegis_mazda_cx3/sfx/traffic_aegis_mazda_cx3.bank
+Loading lut content/cars/traffic_aegis_mazda_cx3/data/analog_speed_curve.lut
+ERROR: INIReader: content/cars/traffic_aegis_mazda_cx3/data/lights.ini > KEY_NOT_FOUND: [BRAKE_0] OFF_COLOR
+ERROR: INIReader: content/cars/traffic_aegis_mazda_cx3/data/lights.ini > KEY_NOT_FOUND: [BRAKE_0] OFF_COLOR
+ADDING BRAKE LIGHT: tl_ef002
+ADDING BRAKE LIGHT: tl_ef002
+ADDING LIGHT OBJECT hl_ef002
+ADDING LIGHT OBJECT hl_ef002
+ADDING LIGHT OBJECT roomIlm002
+DigitalInstruments::initInstruments()
+DEBUG TIMER: AUDIO LOAD:68.127200
+USING DEFAULT DRIVER SYSTEM
+LOADING ANIMATION: content/cars/traffic_isuzu_tanker/animations/steer.ksanim
+LOADING ANIMATION: content/cars/traffic_isuzu_tanker/animations/shift.ksanim
+USING DEFAULT DRIVER SYSTEM
+INIT LOD:0
+GRAPHICS RADIUS: 0.000000 0.000000
+INIT LOD:1
+INIT LOD:2
+INIT LOD:3
+CAR LOADED IN 84
+Creating car: traffic_isuzu_tanker []
+LOCAL INERTIA: 3203.139404 3374.676025 742.374390
+APPLYING RIM OFFSET: 0.050000
+LOADING TYRE COMPOUND Street90S (SV)
+TEST MAX, LOAD:1320.0 1.00 @ 8.25 D:1.44
+TEST MAX, LOAD:2640.0 1.00 @ 8.42 D:1.21
+TEST MAX, LOAD:5280.0 1.00 @ 8.64 D:1.01
+TEST MAX, LOAD:10560.0 1.00 @ 9.15 D:0.85
+COOL FACTOR FINAL:0.000227
+Loading lut content/cars/traffic_isuzu_tanker/data/tcurve_street90.lut
+Loading lut content/cars/traffic_isuzu_tanker/data/street90_front.lut
+MAX WEAR AT: 20.000000 vKM , mult 0.880000
+SOFTNESS INDEX: 0.171073
+APPLYING RIM OFFSET: 0.050000
+LOADING TYRE COMPOUND Street90S (SV)
+TEST MAX, LOAD:1320.0 1.00 @ 8.25 D:1.44
+TEST MAX, LOAD:2640.0 1.00 @ 8.42 D:1.21
+TEST MAX, LOAD:5280.0 1.00 @ 8.64 D:1.01
+TEST MAX, LOAD:10560.0 1.00 @ 9.15 D:0.85
+COOL FACTOR FINAL:0.000227
+Loading lut content/cars/traffic_isuzu_tanker/data/street90_front.lut
+MAX WEAR AT: 20.000000 vKM , mult 0.880000
+APPLYING RIM OFFSET: 0.050000
+LOADING TYRE COMPOUND Street90S (SV)
+TEST MAX, LOAD:1568.0 1.00 @ 8.03 D:1.43
+TEST MAX, LOAD:3136.0 1.00 @ 8.14 D:1.21
+COOL FACTOR FINAL:0.000269
+Loading lut content/cars/traffic_isuzu_tanker/data/street_rear.lut
+MAX WEAR AT: 50.000000 vKM , mult 0.800000
+SOFTNESS INDEX: 0.223204
+APPLYING RIM OFFSET: 0.050000
+LOADING TYRE COMPOUND Street90S (SV)
+TEST MAX, LOAD:1568.0 1.00 @ 8.03 D:1.43
+TEST MAX, LOAD:3136.0 1.00 @ 8.14 D:1.21
+TEST MAX, LOAD:6272.0 1.00 @ 8.36 D:1.02
+TEST MAX, LOAD:12544.0 1.00 @ 8.87 D:0.86
+COOL FACTOR FINAL:0.000269
+Loading lut content/cars/traffic_isuzu_tanker/data/street_rear.lut
+MAX WEAR AT: 50.000000 vKM , mult 0.800000
+SOFTNESS INDEX: 0.223204
+TYRE COMPOUND: Street90S (SV)
+Loading lut content/cars/traffic_isuzu_tanker/data/wing_body_AOA_CL.lut
+Loading lut content/cars/traffic_isuzu_tanker/data/wing_body_AOA_CD.lut
+Loading lut content/cars/traffic_isuzu_tanker/data/wing_front_AOA_CL.lut
+Loading lut content/cars/traffic_isuzu_tanker/data/wing_front_AOA_CD.lut
+Loading lut content/cars/traffic_isuzu_tanker/data/wing_rear_AOA_CL.lut
+Loading engine file content/cars/traffic_isuzu_tanker/data/engine.ini
+VERSION=1
+GENERATING COAST CURVE PARAMETERS for section COAST_REF
+0: 3.333333
+4500: -13.333333
+LOADING THROTTLE LUT
+ADDING GEAR:R
+ADDING GEAR:1
+ADDING GEAR:3
+MAX NUMBER OF GEARS 7
+MAX SPEED 77.979424 TURBOS 2
+FINAL FUEL : 16.937569
+LOADING COLLIDER MESH FILE: content/cars/traffic_isuzu_tanker/collider.kn5
+Car bounds L: 4.686607 W:2.105334 , front: 2.100568 rear: 2.586040
+DEBUG TIMER: Car::initColliderMesh:0.066100
+RADIUS FRONT, P:0.390000 , G:0.000000 , diff:0.390000
+SMOKE LEVEL AT 0:SMOKE LEVEL AT 0:SMOKE LEVEL AT 0:SMOKE LEVEL AT 0:ENGINE SMOKE LEVEL SELECTED : eSmokeOff
+Audio log (AudioEngine.cpp:1198): Loading bank content/cars/traffic_isuzu_tanker/sfx/traffic_isuzu_tanker.bank
+Loading lut content/cars/traffic_isuzu_tanker/data/analog_speed_curve.lut
+ADDING BRAKE LIGHT: lights_r
+ADDING BRAKE LIGHT: lights_r
+ADDING BRAKE LIGHT: lights_r
+ADDING BRAKE LIGHT: lights_r2
+ADDING BRAKE LIGHT: lights_r2
+ADDING BRAKE LIGHT: lights_r2
+ADDING LIGHT OBJECT headlight
+ADDING LIGHT OBJECT headlight
+ADDING LIGHT OBJECT headlight
+ADDING LIGHT OBJECT sidelights2
+ADDING LIGHT OBJECT sidelights2
+ADDING LIGHT OBJECT sidelights2
+ADDING LIGHT OBJECT sidelights
+ADDING LIGHT OBJECT sidelights
+DigitalInstruments::initInstruments()
+DigitalPanels::initPanel()
+WARNING: flames.ini not found
+DEBUG TIMER: AUDIO LOAD:91.576800
+goToSpawnPosition PIT
+[CAR_3] BALLAST: 0.000000
+[CAR_4] AI_LEVEL: 89.000000
+[CAR_4] AI_AGGRESSION: 24.700001
+USING DEFAULT DRIVER SYSTEM
+LOADING ANIMATION: content/cars/traffic_toyota_camry/animations/steer.ksanim
+VERSION: 2
+LOADING ANIMATION: content/cars/traffic_toyota_camry/animations/shift.ksanim
+VERSION: 2
+USING DEFAULT DRIVER SYSTEM
+LOADING ANIMATION: content/cars/traffic_toyota_camry/animations/steer.ksanim
+VERSION: 2
+LOADING ANIMATION: content/cars/traffic_toyota_camry/animations/shift.ksanim
+VERSION: 2
+USING PHYSICS DRIVEN SUSPENSIONS
+INIT LOD:0
+INIT LOD:1
+INIT LOD:2
+CAR LOADED IN 30
+LOADING TYRE COMPOUND Street90S (SV)
+TEST MAX, LOAD:1320.0 1.00 @ 8.25 D:1.44
+TEST MAX, LOAD:2640.0 1.00 @ 8.42 D:1.21
+TEST MAX, LOAD:5280.0 1.00 @ 8.64 D:1.01
+TEST MAX, LOAD:10560.0 1.00 @ 9.15 D:0.85
+COOL FACTOR FINAL:0.000227
+Loading lut content/cars/traffic_toyota_camry/data/tcurve_street90.lut
+Loading lut content/cars/traffic_toyota_camry/data/street90_front.lut
+MAX WEAR AT: 20.000000 vKM , mult 0.880000
+SOFTNESS INDEX: 0.171073
+LOADING TYRE COMPOUND Street90S (SV)
+TEST MAX, LOAD:1320.0 1.00 @ 8.25 D:1.44
+TEST MAX, LOAD:2640.0 1.00 @ 8.42 D:1.21
+TEST MAX, LOAD:5280.0 1.00 @ 8.64 D:1.01
+TEST MAX, LOAD:10560.0 1.00 @ 9.15 D:0.85
+COOL FACTOR FINAL:0.000227
+Loading lut content/cars/traffic_toyota_camry/data/street90_front.lut
+MAX WEAR AT: 20.000000 vKM , mult 0.880000
+SOFTNESS INDEX: 0.171073
+LOADING TYRE COMPOUND Street90S (SV)
+TEST MAX, LOAD:1568.0 1.00 @ 8.03 D:1.43
+TEST MAX, LOAD:3136.0 1.00 @ 8.14 D:1.21
+TEST MAX, LOAD:6272.0 1.00 @ 8.36 D:1.02
+TEST MAX, LOAD:12544.0 1.00 @ 8.87 D:0.86
+COOL FACTOR FINAL:0.000269
+Loading lut content/cars/traffic_toyota_camry/data/street_rear.lut
+MAX WEAR AT: 50.000000 vKM , mult 0.800000
+SOFTNESS INDEX: 0.223204
+LOADING TYRE COMPOUND Street90S (SV)
+TEST MAX, LOAD:1568.0 1.00 @ 8.03 D:1.43
+TEST MAX, LOAD:3136.0 1.00 @ 8.14 D:1.21
+TEST MAX, LOAD:6272.0 1.00 @ 8.36 D:1.02
+TEST MAX, LOAD:12544.0 1.00 @ 8.87 D:0.86
+COOL FACTOR FINAL:0.000269
+Loading lut content/cars/traffic_toyota_camry/data/street_rear.lut
+MAX WEAR AT: 50.000000 vKM , mult 0.800000
+cback: 0
+TYRE COMPOUND: Street90S (SV)
+Loading lut content/cars/traffic_toyota_camry/data/wing_body_AOA_CL.lut
+Loading lut content/cars/traffic_toyota_camry/data/wing_body_AOA_CD.lut
+Loading lut content/cars/traffic_toyota_camry/data/wing_front_AOA_CL.lut
+Loading lut content/cars/traffic_toyota_camry/data/wing_front_AOA_CD.lut
+Loading lut content/cars/traffic_toyota_camry/data/wing_rear_AOA_CL.lut
+Loading lut content/cars/traffic_toyota_camry/data/wing_rear_AOA_CD.lut
+Loading engine file content/cars/traffic_toyota_camry/data/engine.ini
+VERSION=1
+GENERATING COAST CURVE PARAMETERS for section COAST_REF
+0: 3.333333
+4000: -11.481482
+9000: -30.000000
+LOADING THROTTLE LUT
+ADDING GEAR:R
+ADDING GEAR:1
+ADDING GEAR:3
+MAX NUMBER OF GEARS 7
+MAX SPEED 77.979424 TURBOS 2
+FINAL FUEL : 7.501085
+LOADING COLLIDER MESH FILE: content/cars/traffic_toyota_camry/collider.kn5
+Car bounds L: 4.056181 W:1.753232 , front: 1.734959 rear: 2.321222
+DEBUG TIMER: Car::initColliderMesh:0.047500
+RADIUS FRONT, P:0.330000 , G:0.000000 , diff:0.330000
+SMOKE LEVEL AT 0:SMOKE LEVEL AT 0:SMOKE LEVEL AT 0:SMOKE LEVEL AT 0:ENGINE SMOKE LEVEL SELECTED : eSmokeOff
+Audio log (AudioEngine.cpp:1198): Loading bank content/cars/traffic_toyota_camry/sfx/traffic_toyota_camry.bank
+Loading lut content/cars/traffic_toyota_camry/data/analog_speed_curve.lut
+ADDING BRAKE LIGHT: brake_top
+ERROR: INIReader: content/cars/traffic_toyota_camry/data/lights.ini > KEY_NOT_FOUND: [BRAKE_0] OFF_COLOR
+ERROR: INIReader: content/cars/traffic_toyota_camry/data/lights.ini > KEY_NOT_FOUND: [BRAKE_0] OFF_COLOR
+ERROR: INIReader: content/cars/traffic_toyota_camry/data/lights.ini > KEY_NOT_FOUND: [BRAKE_0] OFF_COLOR
+ADDING BRAKE LIGHT: lights_r
+ADDING BRAKE LIGHT: lights_r
+ADDING BRAKE LIGHT: lights_r
+ADDING BRAKE LIGHT: taillightR_taillight2S
+ADDING BRAKE LIGHT: taillightR_taillight2S
+ADDING BRAKE LIGHT: taillightR_taillight2S
+ADDING LIGHT OBJECT headlights
+ADDING LIGHT OBJECT headlights
+ADDING LIGHT OBJECT headlights
+DigitalInstruments::initInstruments()
+DigitalPanels::initPanel()
+WARNING: flames.ini not found
+DEBUG TIMER: AUDIO LOAD:42.978400
+goToSpawnPosition PIT
+[CAR_4] BALLAST: 0.000000
+[CAR_5] AI_LEVEL: 87.000000
+[CAR_5] AI_AGGRESSION: 21.700001
+USING DEFAULT DRIVER SYSTEM
+LOADING ANIMATION: content/cars/traffic_toyota_rav4/animations/steer.ksanim
+VERSION: 2
+LOADING ANIMATION: content/cars/traffic_toyota_rav4/animations/shift.ksanim
+VERSION: 2
+USING DEFAULT DRIVER SYSTEM
+LOADING ANIMATION: content/cars/traffic_toyota_rav4/animations/steer.ksanim
+VERSION: 2
+LOADING ANIMATION: content/cars/traffic_toyota_rav4/animations/shift.ksanim
+VERSION: 2
+USING PHYSICS DRIVEN SUSPENSIONS
+INIT LOD:0
+GRAPHICS RADIUS: 0.000000 0.000000
+INIT LOD:1
+INIT LOD:2
+INIT LOD:3
+CAR LOADED IN 35
+Creating car: traffic_toyota_rav4 []
+LOADING TYRE COMPOUND Street90S (SV)
+TEST MAX, LOAD:1320.0 1.00 @ 8.25 D:1.44
+TEST MAX, LOAD:2640.0 1.00 @ 8.42 D:1.21
+TEST MAX, LOAD:5280.0 1.00 @ 8.64 D:1.01
+TEST MAX, LOAD:10560.0 1.00 @ 9.15 D:0.85
+COOL FACTOR FINAL:0.000227
+Loading lut content/cars/traffic_toyota_rav4/data/tcurve_street90.lut
+Loading lut content/cars/traffic_toyota_rav4/data/street90_front.lut
+MAX WEAR AT: 20.000000 vKM , mult 0.880000
+SOFTNESS INDEX: 0.171073
+LOADING TYRE COMPOUND Street90S (SV)
+TEST MAX, LOAD:1320.0 1.00 @ 8.25 D:1.44
+TEST MAX, LOAD:2640.0 1.00 @ 8.42 D:1.21
+TEST MAX, LOAD:5280.0 1.00 @ 8.64 D:1.01
+TEST MAX, LOAD:10560.0 1.00 @ 9.15 D:0.85
+COOL FACTOR FINAL:0.000227
+Loading lut content/cars/traffic_toyota_rav4/data/street90_front.lut
+MAX WEAR AT: 20.000000 vKM , mult 0.880000
+SOFTNESS INDEX: 0.171073
+LOADING TYRE COMPOUND Street90S (SV)
+TEST MAX, LOAD:1568.0 1.00 @ 8.03 D:1.43
+TEST MAX, LOAD:3136.0 1.00 @ 8.14 D:1.21
+TEST MAX, LOAD:6272.0 1.00 @ 8.36 D:1.02
+TEST MAX, LOAD:12544.0 1.00 @ 8.87 D:0.86
+COOL FACTOR FINAL:0.000269
+Loading lut content/cars/traffic_toyota_rav4/data/street_rear.lut
+MAX WEAR AT: 50.000000 vKM , mult 0.800000
+SOFTNESS INDEX: 0.223204
+LOADING TYRE COMPOUND Street90S (SV)
+TEST MAX, LOAD:1568.0 1.00 @ 8.03 D:1.43
+TEST MAX, LOAD:3136.0 1.00 @ 8.14 D:1.21
+TEST MAX, LOAD:6272.0 1.00 @ 8.36 D:1.02
+TEST MAX, LOAD:12544.0 1.00 @ 8.87 D:0.86
+COOL FACTOR FINAL:0.000269
+Loading lut content/cars/traffic_toyota_rav4/data/street_rear.lut
+MAX WEAR AT: 50.000000 vKM , mult 0.800000
+SOFTNESS INDEX: 0.223204
+TYRE COMPOUND: Street90S (SV)
+Loading lut content/cars/traffic_toyota_rav4/data/wing_body_AOA_CL.lut
+Loading lut content/cars/traffic_toyota_rav4/data/wing_body_AOA_CD.lut
+Loading lut content/cars/traffic_toyota_rav4/data/wing_front_AOA_CL.lut
+Loading lut content/cars/traffic_toyota_rav4/data/wing_front_AOA_CD.lut
+Loading lut content/cars/traffic_toyota_rav4/data/wing_rear_AOA_CL.lut
+Loading lut content/cars/traffic_toyota_rav4/data/wing_rear_AOA_CD.lut
+Loading engine file content/cars/traffic_toyota_rav4/data/engine.ini
+VERSION=1
+GENERATING COAST CURVE PARAMETERS for section COAST_REF
+0: 3.333333
+4000: -11.481482
+LOADING THROTTLE LUT
+ADDING GEAR:R
+ADDING GEAR:2
+ADDING GEAR:5
+MAX NUMBER OF GEARS 7
+MAX SPEED 77.979424 TURBOS 2
+FINAL FUEL : 7.501085
+LOADING COLLIDER MESH FILE: content/cars/traffic_toyota_rav4/collider.kn5
+Car bounds L: 4.056181 W:1.753232 , front: 1.734959 rear: 2.321222
+RADIUS FRONT, P:0.340000 , G:0.000000 , diff:0.340000
+SMOKE LEVEL AT 0:SMOKE LEVEL AT 0:SMOKE LEVEL AT 0:SMOKE LEVEL AT 0:ENGINE SMOKE LEVEL SELECTED : eSmokeOff
+Audio log (AudioEngine.cpp:1198): Loading bank content/cars/traffic_toyota_rav4/sfx/traffic_toyota_rav4.bank
+Loading lut content/cars/traffic_toyota_rav4/data/analog_speed_curve.lut
+ADDING BRAKE LIGHT: brake_top
+ERROR: INIReader: content/cars/traffic_toyota_rav4/data/lights.ini > KEY_NOT_FOUND: [BRAKE_0] OFF_COLOR
+ERROR: INIReader: content/cars/traffic_toyota_rav4/data/lights.ini > KEY_NOT_FOUND: [BRAKE_0] OFF_COLOR
+ERROR: INIReader: content/cars/traffic_toyota_rav4/data/lights.ini > KEY_NOT_FOUND: [BRAKE_0] OFF_COLOR
+ADDING BRAKE LIGHT: lights_r
+ADDING BRAKE LIGHT: lights_r
+ADDING BRAKE LIGHT: lights_r
+ADDING LIGHT OBJECT headlights
+ADDING LIGHT OBJECT headlights
+ADDING LIGHT OBJECT headlights
+DigitalInstruments::initInstruments()
+DigitalPanels::initPanel()
+WARNING: flames.ini not found
+DEBUG TIMER: AUDIO LOAD:40.742400
+goToSpawnPosition PIT
+[CAR_5] BALLAST: 0.000000
+[CAR_6] AI_LEVEL: 85.000000
+[CAR_6] AI_AGGRESSION: 17.700001
+ERROR: INIReader: content/cars/traffic_aegis_daihatsu_copen/data/driver3d.ini > KEY_NOT_FOUND: [SHIFT_ANIMATION] INVERT_SHIFTING_HANDS
+LOADING ANIMATION: content/cars/traffic_aegis_daihatsu_copen/animations/shift_dw.ksanim
+VERSION: 1
+ERROR: INIReader: content/cars/traffic_aegis_daihatsu_copen/data/driver3d.ini > KEY_NOT_FOUND: [SHIFT_ANIMATION] INVERT_SHIFTING_HANDS
+LOADING ANIMATION: content/cars/traffic_aegis_daihatsu_copen/animations/shift_dw.ksanim
+ERROR: INIReader: content/cars/traffic_aegis_daihatsu_copen/data/lods.ini > KEY_NOT_FOUND: [COCKPIT_HR] DISTANCE_SWITCH
+INIT LOD:0
+INIT LOD:1
+INIT LOD:2
+CAR LOADED IN 97
+Creating car: traffic_aegis_daihatsu_copen []
+LOCAL INERTIA: 954.420776 993.369629 276.516815
+LOADING TYRE COMPOUND Street90S (SV)
+TEST MAX, LOAD:1320.0 1.00 @ 8.25 D:1.44
+TEST MAX, LOAD:2640.0 1.00 @ 8.42 D:1.21
+TEST MAX, LOAD:5280.0 1.00 @ 8.64 D:1.01
+TEST MAX, LOAD:10560.0 1.00 @ 9.15 D:0.85
+COOL FACTOR FINAL:0.000227
+Loading lut content/cars/traffic_aegis_daihatsu_copen/data/tcurve_street90.lut
+Loading lut content/cars/traffic_aegis_daihatsu_copen/data/street90_front.lut
+MAX WEAR AT: 20.000000 vKM , mult 0.880000
+SOFTNESS INDEX: 0.171073
+cback: 0
+LOADING TYRE COMPOUND Street90S (SV)
+TEST MAX, LOAD:1320.0 1.00 @ 8.25 D:1.44
+TEST MAX, LOAD:2640.0 1.00 @ 8.42 D:1.21
+TEST MAX, LOAD:5280.0 1.00 @ 8.64 D:1.01
+TEST MAX, LOAD:10560.0 1.00 @ 9.15 D:0.85
+MAX WEAR AT: 20.000000 vKM , mult 0.880000
+LOADING TYRE COMPOUND Street90S (SV)
+TEST MAX, LOAD:1568.0 1.00 @ 8.03 D:1.43
+TEST MAX, LOAD:3136.0 1.00 @ 8.14 D:1.21
+TEST MAX, LOAD:6272.0 1.00 @ 8.36 D:1.02
+TEST MAX, LOAD:12544.0 1.00 @ 8.87 D:0.86
+COOL FACTOR FINAL:0.000269
+Loading lut content/cars/traffic_aegis_daihatsu_copen/data/street_rear.lut
+MAX WEAR AT: 50.000000 vKM , mult 0.800000
+SOFTNESS INDEX: 0.223204
+LOADING TYRE COMPOUND Street90S (SV)
+TEST MAX, LOAD:1568.0 1.00 @ 8.03 D:1.43
+TEST MAX, LOAD:3136.0 1.00 @ 8.14 D:1.21
+TEST MAX, LOAD:6272.0 1.00 @ 8.36 D:1.02
+TEST MAX, LOAD:12544.0 1.00 @ 8.87 D:0.86
+COOL FACTOR FINAL:0.000269
+Loading lut content/cars/traffic_aegis_daihatsu_copen/data/street_rear.lut
+MAX WEAR AT: 50.000000 vKM , mult 0.800000
+SOFTNESS INDEX: 0.223204
+TYRE COMPOUND: Street90S (SV)
+Loading lut content/cars/traffic_aegis_daihatsu_copen/data/wing_body_AOA_CL.lut
+Loading lut content/cars/traffic_aegis_daihatsu_copen/data/wing_body_AOA_CD.lut
+Loading lut content/cars/traffic_aegis_daihatsu_copen/data/wing_front_AOA_CL.lut
+Loading lut content/cars/traffic_aegis_daihatsu_copen/data/wing_front_AOA_CD.lut
+Loading lut content/cars/traffic_aegis_daihatsu_copen/data/wing_rear_AOA_CL.lut
+Loading lut content/cars/traffic_aegis_daihatsu_copen/data/wing_rear_AOA_CD.lut
+Loading engine file content/cars/traffic_aegis_daihatsu_copen/data/engine.ini
+VERSION=1
+GENERATING COAST CURVE PARAMETERS for section COAST_REF
+0: 3.333333
+4500: -13.333333
+LOADING THROTTLE LUT
+ADDING GEAR:R
+ADDING GEAR:1
+ADDING GEAR:3
+MAX NUMBER OF GEARS 7
+MAX SPEED 77.979424 TURBOS 2
+FINAL FUEL : 7.501085
+LOADING COLLIDER MESH FILE: content/cars/traffic_aegis_daihatsu_copen/collider.kn5
+Car bounds L: 3.393495 W:1.475000 , front: 1.636372 rear: 1.757123
+DEBUG TIMER: Car::initColliderMesh:0.097700
+RADIUS FRONT, P:0.282500 , G:0.000000 , diff:0.282500
+SMOKE LEVEL AT 0:SMOKE LEVEL AT 0:SMOKE LEVEL AT 0:SMOKE LEVEL AT 0:ENGINE SMOKE LEVEL SELECTED : eSmokeOff
+Audio log (AudioEngine.cpp:1198): Loading bank content/cars/traffic_aegis_daihatsu_copen/sfx/traffic_aegis_daihatsu_copen.bank
+Loading lut content/cars/traffic_aegis_daihatsu_copen/data/analog_speed_curve.lut
+ADDING BRAKE LIGHT: tl_ef
+ADDING BRAKE LIGHT: tl_ef
+ADDING BRAKE LIGHT: stop_ef_body
+ADDING LIGHT OBJECT hl_ef
+ADDING LIGHT OBJECT roomIlm
+ADDING LIGHT OBJECT ext_running_light
+ADDING LIGHT OBJECT ext_running_light
+DigitalInstruments::initInstruments()
+DigitalPanels::initPanel()
+WARNING: flames.ini not found
+DEBUG TIMER: AUDIO LOAD:73.744600
+goToSpawnPosition PIT
+[CAR_6] BALLAST: 0.000000
+[GHOST_CAR] RECORDING: 0
+[RACE] PENALTIES: 1
+[RACE] JUMP_START_PENALTY: 0
+New session, resetting track dynamic objects
+goToSpawnPosition START
+goToSpawnPosition START
+goToSpawnPosition START
+
+POWER CLASS INDEX
+traffic_isuzu_tanker: 31.7
+LOADING ANIMATION: content/cars/cky_porsche992_gt3rs_2023/animations/car_wiper.ksanim
+VERSION: 2
+LOADING ANIMATION: content/cars/rize_traffic_mazda_rx8_se3p/animations/car_wiper.ksanim
+VERSION: 1
+LOADING ANIMATION: content/cars/traffic_aegis_mazda_cx3/animations/car_wiper.ksanim
+VERSION: 1
+LOADING ANIMATION: content/cars/traffic_isuzu_tanker/animations/car_wiper.ksanim
+VERSION: 1
+LOADING ANIMATION: content/cars/traffic_toyota_camry/animations/car_wiper.ksanim
+VERSION: 1
+LOADING ANIMATION: content/cars/traffic_toyota_rav4/animations/car_wiper.ksanim
+VERSION: 1
+LOADING ANIMATION: content/cars/traffic_aegis_daihatsu_copen/animations/car_wiper.ksanim
+VERSION: 1
+REPLAY QUALITY AT 33.333333 Hz
+Autosave replay options min frame: 1000 
+ReplayManager initialized current type 3
+WARNING: TaskBarIcon :: COULD NOT FIND TEXTURES FOR AUDIO_ICON
+WARNING: TaskBarIcon :: COULD NOT FIND TEXTURES FOR CHAT_ICON
+WARNING: TaskBarIcon :: COULD NOT FIND TEXTURES FOR CAMERA_PICTURE_MODE_ICON
+WARNING: TaskBarIcon :: COULD NOT FIND TEXTURES FOR CSPRSTATS_ICON
+WARNING: TaskBarIcon :: COULD NOT FIND TEXTURES FOR IMGUI_CSP_CAR_DEBUG_ICON
+WARNING: TaskBarIcon :: COULD NOT FIND TEXTURES FOR IMGUI_CSP_EXTRAFX_DEBUG_ICON
+WARNING: TaskBarIcon :: COULD NOT FIND TEXTURES FOR IMGUI_CSP_GRASSFX_DEBUG_ICON
+WARNING: TaskBarIcon :: COULD NOT FIND TEXTURES FOR IMGUI_CSP_LIGHT_MAKER_ICON
+WARNING: TaskBarIcon :: COULD NOT FIND TEXTURES FOR IMGUI_CSP_LIGHTINGFX_DEBUG_ICON
+WARNING: TaskBarIcon :: COULD NOT FIND TEXTURES FOR IMGUI_CSP_LUA_DEBUG_ICON
+WARNING: TaskBarIcon :: COULD NOT FIND TEXTURES FOR IMGUI_CSP_OBJECTS_INSPECTOR_ICON
+WARNING: TaskBarIcon :: COULD NOT FIND TEXTURES FOR IMGUI_CSP_PARTICLESFX_DEBUG_ICON
+WARNING: TaskBarIcon :: COULD NOT FIND TEXTURES FOR IMGUI_CSP_PYTHON_PROFILER_ICON
+WARNING: TaskBarIcon :: COULD NOT FIND TEXTURES FOR IMGUI_CSP_REFLECTIONSFX_DEBUG_ICON
+WARNING: TaskBarIcon :: COULD NOT FIND TEXTURES FOR IMGUI_CSP_WEATHERFX_DEBUG_ICON
+KGL CREATE FONT Consolas with locale 
+KGL CREATE FONT Consolas with locale 
+WARNING: TaskBarIcon :: COULD NOT FIND TEXTURES FOR FORM_MGU_ICON
+WARNING: TaskBarIcon :: COULD NOT FIND TEXTURES FOR FORM_BALLAST_ICON
+LOADING TYRE COMPOUND Pilot Sport Cup 2 R (Cup 2R)
+TEST MAX, LOAD:1737.0 1.00 @ 6.96 D:1.83
+TEST MAX, LOAD:3474.0 1.00 @ 7.01 D:1.54
+TEST MAX, LOAD:6948.0 1.00 @ 7.13 D:1.30
+TEST MAX, LOAD:13896.0 1.00 @ 7.29 D:1.09
+COOL FACTOR FINAL:0.000366
+Loading lut content/cars/cky_porsche992_gt3rs_2023/data/__cm_tyre_perfcurve_front_1.lut
+Loading lut content/cars/cky_porsche992_gt3rs_2023/data/__cm_tyre_wearcurve_front_1.lut
+MAX WEAR AT: 0.000000 vKM , mult 100.000000
+SOFTNESS INDEX: 0.601182
+LOADING TYRE COMPOUND Pilot Sport Cup 2 R (Cup 2R)
+TEST MAX, LOAD:1737.0 1.00 @ 6.96 D:1.83
+TEST MAX, LOAD:3474.0 1.00 @ 7.01 D:1.54
+TEST MAX, LOAD:6948.0 1.00 @ 7.13 D:1.30
+TEST MAX, LOAD:13896.0 1.00 @ 7.29 D:1.09
+COOL FACTOR FINAL:0.000366
+Loading lut content/cars/cky_porsche992_gt3rs_2023/data/__cm_tyre_wearcurve_front_1.lut
+MAX WEAR AT: 0.000000 vKM , mult 100.000000
+SOFTNESS INDEX: 0.601182
+LOADING TYRE COMPOUND Pilot Sport Cup 2 R (Cup 2 R)
+TEST MAX, LOAD:1877.0 1.00 @ 6.45 D:1.80
+TEST MAX, LOAD:3754.0 1.00 @ 6.45 D:1.54
+TEST MAX, LOAD:7508.0 1.00 @ 6.56 D:1.33
+TEST MAX, LOAD:15016.0 1.00 @ 6.67 D:1.14
+COOL FACTOR FINAL:0.000428
+Loading lut content/cars/cky_porsche992_gt3rs_2023/data/__cm_tyre_wearcurve_rear_1.lut
+MAX WEAR AT: 0.000000 vKM , mult 100.000000
+SOFTNESS INDEX: 0.621124
+LOADING TYRE COMPOUND Pilot Sport Cup 2 R (Cup 2 R)
+TEST MAX, LOAD:1877.0 1.00 @ 6.45 D:1.80
+TEST MAX, LOAD:3754.0 1.00 @ 6.45 D:1.54
+TEST MAX, LOAD:7508.0 1.00 @ 6.56 D:1.33
+TEST MAX, LOAD:15016.0 1.00 @ 6.67 D:1.14
+COOL FACTOR FINAL:0.000428
+Loading lut content/cars/cky_porsche992_gt3rs_2023/data/__cm_tyre_wearcurve_rear_1.lut
+MAX WEAR AT: 0.000000 vKM , mult 100.000000
+SOFTNESS INDEX: 0.621124
+Initialising Python Interface
+LOADING 4 PY APPS
+ERROR: Python [ERROR] File apps/python/acnotify/acnotify.py not found
+Init PyPlugin:Chat
+Init PyPlugin:gMeter
+WARNING: TaskBarIcon :: COULD NOT FIND TEXTURES FOR G Meter_ICON
+'module' object has no attribute 'acUpdate'
+Init PyPlugin:SimHub
+WARNING: TaskBarIcon :: COULD NOT FIND TEXTURES FOR SimHub_ICON
+Function acUpdate bind to module
+Localized Setup I/O is NOT FOUND
+Localized GEARS is NOT FOUND
+Localized TYRES is TYRES
+Localized FUEL is FUEL
+Localized ELECTRONICS is NOT FOUND
+Loading setup.ini
+Localized AERO is AERO
+Localized GENERIC is GENERIC
+Localized DAMPERS is DAMPERS
+Localized ALIGNMENT is ALIGNMENT
+ERROR: GEAR COULD NOT FIND GEAR_1
+ERROR: GEAR COULD NOT FIND GEAR_5
+
+_________________________________________________________
+
+RemoteTelemetryUDP :: creating socket on port 9996
+Initializing TrackIR interface
+ERROR: TrackIR DLL Location key not present
+LoadLibrary failed
+LOADING ANIMATION: content/objects3D/pitcrewtyre.ksanim
+LOADING ANIMATION: content/objects3D/pitcrewtyre.ksanim
+KGL CREATE FONT Orbitron with locale 
+Init Fanatec Updater...
+Loading Fanatec Updater...
+led_big MONOSPACE SIZE:0.010498 (min 0.010254)
+Car::setSlipStreamEffects: receive:1.000000 speed_factor:1.000000
+Steam Interface :: COULDN't FIND A TIME TO BEAT!
+STARTING PHYSICS ENGINE
+UNLOADING MESH RESOURCES
+DEBUG TIMER: Sim::Sim:5523.685500
+DIRECT INPUT DEVICE:MOZA CRP pedals
+DIRECT INPUT DEVICE:SGP Shifter
+DIRECT INPUT DEVICE:HBP Handbrake
+ERROR: InputDevice::initFF(), lpDirectInputDevice->SetProperty failed
+ERROR: DAMPER CREATION FAILED
+ERROR: InputDevice::initFF(), lpDirectInputDevice->SetProperty failed
+ERROR: InputDevice::initFF(), lpDirectInputDevice->SetProperty failed
+ERROR: InputDevice::initFF(), lpDirectInputDevice->CreateEffect failed GUID_ConstantForce
+ERROR: DAMPER CREATION FAILED
+RESET PHYSICS TIMER
+DInput input lost:
+Generating wind, base 10.000000 0.000000 -> 8.881496 15.187840
+AI GENOME: 1.005 0.981Looking for AI setups in:
+Could not find any AI setup files
+AI changeDnRPM=0 chup=6000.000000 0.00
+CHANGE DN: 0.800000 -> CAR: 1  setting fuel for 10 laps, with mult=1.100000
+AI OVERSTEER FACTOR: 1.867322 , grip: 1.158823 , asy: 0.860000 (0.162235)
+AI SETUP FOUND
+Checking: WING_0
+Checking: WING_5
+STRAIGHT FACTOR: 0.672097
+AI AGGRESSION: 0.339150
+AI GENOME: 1.005Looking for AI setups in:
+Could not find any AI setup files
+AI changeDnRPM=0 chup=6000.000000 0.00
+CHANGE DN: 0.800000 -> CAR: 2  setting fuel for 7 laps, with mult=1.100000
+AI OVERSTEER FACTOR: 1.709776 , grip: 1.223581 , asy: 0.860000 (0.171301)
+AI SETUP FOUND
+Checking: WING_1
+Checking: WING_7
+0.000000 : 1.000000
+AI AGGRESSION: 0.301150
+AI GENOME: 1.001Looking for AI setups in:
+Could not find any AI setup files
+AI changeDnRPM=0 chup=6000.000000 0.00
+CAR: 3  setting fuel for 10 laps, with mult=1.100000
+AI OVERSTEER FACTOR: 1.904946 , grip: 1.144246 , asy: 0.860000 (0.160194)
+AI SETUP FOUND
+Checking: WING_3
+Checking: WING_9
+0.300000 : 0.000000
+AI AGGRESSION: 0.272650
+AI GENOME: 1.009Looking for AI setups in:
+Could not find any AI setup files
+AI changeDnRPM=0 chup=6000.000000 0.00
+CAR: 4  setting fuel for 9 laps, with mult=1.100000
+AI OVERSTEER FACTOR: 1.721038 , grip: 1.218729 , asy: 0.860000 (0.170622)
+AI SETUP FOUND
+Checking: WING_3
+STRAIGHT FACTOR: 0.672097
+Car half width: 1.087500
+AI AGGRESSION: 0.234650
+AI GENOME: 0.984Looking for AI setups in:
+Could not find any AI setup files
+AI changeDnRPM=0 chup=6000.000000 0.00
+CAR: 5  setting fuel for 6 laps, with mult=1.100000
+AI OVERSTEER FACTOR: 1.721038 , grip: 1.218729 , asy: 0.860000 (0.170622)
+AI SETUP FOUND
+Checking: WING_3
+STRAIGHT FACTOR: 0.672097
+Car half width: 1.072500
+AI AGGRESSION: 0.206150
+AI GENOME: 1.012Looking for AI setups in:
+Could not find any AI setup files
+AI changeDnRPM=0 chup=6000.000000 0.00
+CAR: 6  setting fuel for 10 laps, with mult=1.100000
+AI OVERSTEER FACTOR: 1.497403 , grip: 1.321576 , asy: 0.860000 (0.185021)
+AI SETUP FOUND
+Checking: WING_4
+STRAIGHT FACTOR: 0.672097
+0.750000 : 1.000000
+AI AGGRESSION: 0.168150
+PhysicsAvatar:: SESSION INFO RECEIVED
+AIDriver::onNewSession: 3
+CAR: 0  setting fuel for 3 laps, with mult=1.200000
+Race strategy for car 0 [traffic_aegis_mazda_cx3], race laps:2
+Race strategy for car 0 [traffic_isuzu_tanker], race laps:2
+Race strategy for car 0 [traffic_toyota_camry], race laps:2
+Race strategy for car 0 [traffic_toyota_rav4], race laps:2
+Race strategy for car 0 [traffic_aegis_daihatsu_copen], race laps:2
+Car::setRequestedFuel: 30.000000
+Changing Car:0  tyre:2  compoundindex:0
+Car::setRequestedFuel: 30.000000
+Changing Car:0  tyre:0  compoundindex:0
+Changing Car:0  tyre:3  compoundindex:0
+LOADING ANIMATION: content/cars/cky_porsche992_gt3rs_2023/animations/cluster.ksanim
+VERSION: 2
+LOADING ANIMATION: content/cars/cky_porsche992_gt3rs_2023/animations/gps.ksanim
+VERSION: 2
+LOADING ANIMATION: content/cars/cky_porsche992_gt3rs_2023/animations/car_door_l.ksanim
+VERSION: 2
+LOADING ANIMATION: content/cars/cky_porsche992_gt3rs_2023/animations/car_door_r.ksanim
+VERSION: 2
+LOADING ANIMATION: content/cars/cky_porsche992_gt3rs_2023/animations/car_wing.ksanim
+VERSION: 2
+TIME TO INIT: 5844.677300
+SplashScreen removed from evOnEndFrame that has 0 listeners
+Audio log (AudioEngine.cpp:1198): Loading bank C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\extension\weather\pure\audio/sol.bank
+Audio log (AudioEngine.cpp:1198): Loading bank C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\extension\weather\pure\audio/rain.bank
+ERROR: NO STAT FOR cky_porsche992_gt3rs_2023
+ERROR: NO STAT FOR ks_nordschleife
+Requested set is the same already in use, no actions
+WARNING: TaskBarIcon :: COULD NOT FIND TEXTURES FOR IMGUI_LUA_Pure Config App_main_pure_config_ICON
+WARNING: TaskBarIcon :: COULD NOT FIND TEXTURES FOR IMGUI_LUA_Pure Planner_main_pure_planner_ICON
+Starting light should show. TTS: inf
+WARNING: TaskBarIcon :: COULD NOT FIND TEXTURES FOR IMGUI_CSP_LUA_App Shelf_main_ICON
+WARNING: TaskBarIcon :: COULD NOT FIND TEXTURES FOR IMGUI_CSP_LUA_CSP Debug_main_ICON
+WARNING: TaskBarIcon :: COULD NOT FIND TEXTURES FOR IMGUI_CSP_LUA_CSP Debug_settings_ICON
+WARNING: TaskBarIcon :: COULD NOT FIND TEXTURES FOR IMGUI_LUA_Pure PP App_main_pure_pp_ICON
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+RESET PHYSICS TIMER
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+Starting light should show. TTS: inf
+RETIRING PLAYER FOR QUITTING THE RACE BEFORE THE END
+Saving replay: C:\Users\kacpe\Documents/Assetto Corsa/replay/temp/AC_171125-214144_R_cky_porsche992_gt3rs_2023_ks_nordschleife_nordschleife.acreplay
+closing pluginManager
+DELETING PY PLUGIN Chat
+km_per_liter: -0.000001 lap_eval: -28508420.000000  , evaluator: 0.000000 (guess: 10.568027), length:20801.365234
+Saving telemetry channel LAP_BEACON with 9572 samples @ 100
+Saving telemetry channel G_LAT with 1915 samples @ 20
+Saving telemetry channel ROTY with 1915 samples @ 20
+Saving telemetry channel STEERANGLE with 1915 samples @ 20
+Saving telemetry channel SPEED with 1915 samples @ 20
+Saving telemetry channel THROTTLE with 1915 samples @ 20
+Saving telemetry channel BRAKE with 1915 samples @ 20
+Saving telemetry channel GEAR with 1915 samples @ 20
+Saving telemetry channel G_LON with 1915 samples @ 20
+Saving telemetry channel CLUTCH with 1915 samples @ 20
+Saving telemetry channel RPMS with 1915 samples @ 20
+Saving telemetry channel SPLINE_POSITION with 1915 samples @ 20
+Saving telemetry channel SUS_TRAVEL_LF with 19143 samples @ 200
+Saving telemetry channel SUS_TRAVEL_RF with 19143 samples @ 200
+Saving telemetry channel SUS_TRAVEL_LR with 19143 samples @ 200
+Saving telemetry channel SUS_TRAVEL_RR with 19143 samples @ 200
+Saving telemetry channel WHEEL_SPEED_LF with 1915 samples @ 20
+Saving telemetry channel WHEEL_SPEED_RF with 1915 samples @ 20
+Saving telemetry channel WHEEL_SPEED_LR with 1915 samples @ 20
+Saving telemetry channel WHEEL_SPEED_RR with 1915 samples @ 20
+km_per_liter: -0.000001 lap_eval: -18551886.000000  , evaluator: 0.000000 (guess: 16.956511), length:20801.365234
+km_per_liter: -0.000002 lap_eval: -13033321.000000  , evaluator: 0.000000 (guess: 16.956511), length:20801.365234
+km_per_liter: -0.000001 lap_eval: -16950302.000000  , evaluator: 0.000000 (guess: 16.956511), length:20801.365234
+km_per_liter: -0.000002 lap_eval: -11769946.000000  , evaluator: 0.000000 (guess: 16.956511), length:20801.365234
+km_per_liter: -0.000002 lap_eval: -11242778.000000  , evaluator: 0.000000 (guess: 16.956511), length:20801.365234
+km_per_liter: -0.000002 lap_eval: -13390154.000000  , evaluator: 0.000000 (guess: 16.956511), length:20801.365234
+CLEAN EXIT
